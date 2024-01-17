@@ -185,7 +185,7 @@ const Contact = ({ visible }) => {
             </a>
           </div>
 
-          <div className="relative top-[-62px]  md:left-[200px] ">
+          <div className="relative top-[-62px]  md:left-[245px] ">
             <div className="relative md:flex hidden z-30 top-[3rem]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
