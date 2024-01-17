@@ -1,0 +1,29 @@
+/* AboutCompany.css */
+/* Add responsive styles for different screen sizes */
+
+/* Adjust container padding for different screen sizes */
+.container {
+    padding: 0.5rem;
+  }
+  
+  /* Customize font size and line height for different screen sizes */
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  /* Add responsive styles for slider */
+  .slick-slide {
+    padding: 0.5rem;
+  }
+  
+  /* Add additional styling if needed for smaller screen sizes */
+  /* For example, you may want to center-align the slider items on smaller screens */
+  @media screen and (max-width: 480px) {
+    .slick-track {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  

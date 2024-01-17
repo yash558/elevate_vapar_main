@@ -1,0 +1,11 @@
+/* Add underline effect on hover */
+.text-black:hover {
+  text-decoration: underline;
+  margin-top: 2px;
+}
+
+/* Add underline effect when active */
+.text-black:active {
+  text-decoration: underline;
+}
+

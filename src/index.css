@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+    
+    .section {
+      @apply container py-16
+    }
+    .animate-slide:hover {
+      animation-play-state: paused;
+    }
+  }
+
+
+
+
+.input {
+  @apply w-full border border-white rounded-md py-2 px-3 placeholder:text-white text-white bg-transparent focus:outline-none focus:border-purple-300;
+}
+
+/* .button {
+  @apply py-3 px-4 text-white rounded-md transition duration-300;
+} */
+
