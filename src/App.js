@@ -12,6 +12,7 @@ import Carrier from "./screens/Career";
 import Payment from "./screens/Payment";
 import TermsPage from "./screens/TermPage";
 import Policy from "./screens/PrivacyPolicy";
+import Marketing from "./screens/Marketing";
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/privacy" element={<Policy />} />
         <Route path="/about" element={<About />} />
+        <Route path="/marketing" element={<Marketing />} />
+
         {/* <Route path="/otp-verify" element={<OtpScreen />} /> */}
         {/* <Route path="/otptwilio" element={<OtpVerificationForm />} /> */}
       </Routes>

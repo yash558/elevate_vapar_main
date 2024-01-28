@@ -11,12 +11,14 @@ const Navbar = () => {
       link: "/",
     },
     {
-      name: "Our Services",
-      link: "/services",
+      name: "Solutions",
+      // link: "/services",
       subroutes: [
-        { name: "Service 1", link: "/services/service1" },
-        { name: "Service 2", link: "/services/service2" },
-        { name: "Service 3", link: "/services/service3" },
+        { name: "Marketing and Promotion", link: "/marketing" },
+        { name: "Content Production", link: "/content" },
+        { name: "Brand Management", link: "/brand" },
+        { name: "Web Services", link: "/webservices" },
+        { name: "Designing and Graphics", link: "/designing" },
       ],
     },
     {
@@ -77,12 +79,12 @@ const Navbar = () => {
                         >
                           {link.name}
                         </Link>
-                        <ul className="absolute left-0 w-44 top-full hidden bg-[--main-color] group-hover:block p-2 rounded-md shadow-md">
+                        <ul className="absolute left-0 w-64 top-full hidden bg-[--main-color] group-hover:block p-2 rounded-md shadow-md">
                           {link.subroutes.map((subroute) => (
-                            <li key={subroute.name}>
+                            <li key={subroute.name} className="hover:no-underline">
                               <Link
                                 to={subroute.link}
-                                className={`block px-4 py-2 text-[500] text-black hover:text-[--theme] transition duration-300`}
+                                className={`block px-4 py-2 hover:no-underline text-[500] text-black hover:text-[--theme] transition duration-300`}
                               >
                                 {subroute.name}
                               </Link>

@@ -1,13 +1,14 @@
 // QuoteForm.js
 import React from 'react';
+import { logo } from '../../assets';
 
 const QuoteForm = () => {
   return (
     <div className="bg-gradient-to-r bg-brown-400 via-brown-500 to-brown-600 flex items-center justify-center flex-col p-8 rounded-lg shadow-md">
       <img
-        src="path-to-your-logo.png" 
+        src={logo}
         alt="Company Logo"
-        className="mb-4"
+        className="mb-4 bg-white p-2 w-full rounded-full"
         style={{ width: '100px', height: '100px', borderRadius: '50%' }}
       />
       <h2 className="text-4xl font-bold text-white mb-6">Request a Quote for Our Services</h2>

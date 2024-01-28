@@ -7,13 +7,13 @@ const HeroService = () => {
       <div className="md:w-[80%] w-[100%] md:pl-40 px-4 my-12">
         <div className="flex items-center justify-start  my-4">
           <h1 className="text-[--primary-color] rounded-md font-[700]  border-2  p-2">
-            Our Services
+            Marketing and Promotion Services
           </h1>
         </div>
         <div className="my-8">
           <h2 className="md:text-5xl text-3xl  leading-snug font-[600]">
-            elavateVapar - India’s leading <br className="md:flex hidden" />{" "}
-            <span className="text-[#3267FF]">One Stop Shop</span> for{" "}
+            elavateVapar - India’s leading {""}
+            <span className="text-[--primary-color]">One Stop Shop</span> for{" "}
             <br className="md:flex hidden" /> OPD Care
           </h2>
         </div>
