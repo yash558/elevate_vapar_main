@@ -1,6 +1,5 @@
-import React from "react";
-import { servicehero } from "../../assets";
-
+import React from 'react'
+import { servicehero } from '../../assets'
 
 const DesignHero = () => {
   return (
@@ -13,17 +12,18 @@ const DesignHero = () => {
         </div>
         <div className="my-8">
           <h2 className="md:text-5xl text-3xl  leading-snug font-[600]">
-            elavateVapar - India’s leading {""}
-            <span className="text-[--primary-color]">One Stop Shop</span> for{" "}
-            <br className="md:flex hidden" /> OPD Care
+            elavateVapar - India’s leading {''}
+            <span className="text-[--primary-color]">
+              One Stop Solution
+            </span>{' '}
+            for all your digital needs.
           </h2>
         </div>
         <div className="my-4">
           {/* <TextAnimation text={`elavateVapar Services ensures your smooth journey and covers you towards
             Health and Wellness`} /> */}
           <p className="text-justify font-[400] text-lg">
-            elavateVapar Services ensures your smooth journey and covers you towards
-            Health and Wellness
+            elavateVapar Services ensures your smooth journey and Build your brand with us by leveraging our expertise in design.
           </p>
         </div>
       </div>
@@ -35,7 +35,7 @@ const DesignHero = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default DesignHero;
+export default DesignHero
