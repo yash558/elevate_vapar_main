@@ -35,7 +35,7 @@ const Faq = () => {
     {
       question: "Does elavateVapar also offer plans for corporates?",
       answer:
-        "Yes, elavateVapar helps corporates, start-ups, and MNCs, with customized plans for their employees. We provide the facility to determine how the costs will be shared between the employer and employees. This includes premiums, deductibles, co-pays, and out-of-pocket maximums. For more details, you may reach out to support@finlyt.com",
+        "Yes, elavateVapar helps corporates, start-ups, and MNCs, with customized plans for their employees. We provide the facility to determine how the costs will be shared between the employer and employees. This includes premiums, deductibles, co-pays, and out-of-pocket maximums. For more details, you may reach out to elavatevyapar@gmail.com",
     },
     {
       question: "How much reimbursement can I get through elavateVapar Plans?",

@@ -24,7 +24,7 @@ const ProjectCard = ({
             scale: 1,
             speed: 450,
           }}
-          className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+          className="bg-[#714423]  p-5 rounded-2xl sm:w-[400px] w-full"
         >
           <div className="relative w-full h-[230px]">
             <img
@@ -54,10 +54,10 @@ const ProjectCard = ({
   
           <div className="mt-5">
             <h3 className="text-white font-bold text-[24px]">{name}</h3>
-            {/* <p className="mt-2 text-secondary text-[14px]">{description}</p> */}
+            <p className="mt-2 text-secondary text-[14px] text-gray-50">{description}</p>
           </div>
   
-          <div className="mt-4 flex flex-wrap gap-2">
+          {/* <div className="mt-4 flex flex-wrap gap-2">
             {tags.map((tag) => (
               <p
                 key={`${name}-${tag.name}`}
@@ -66,7 +66,7 @@ const ProjectCard = ({
                 #{tag.name}
               </p>
             ))}
-          </div>
+          </div> */}
         </Tilt>
       </motion.div>
     )

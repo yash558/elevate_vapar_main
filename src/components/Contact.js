@@ -99,7 +99,7 @@ const Contact = ({ visible }) => {
             </h1>
             <h2 className="text-[#C9C9C9] my-4">
               For easy connect with our team , <br /> you may write to
-              support@elavateVapar.com
+              elavatevyapar@gmail.com
             </h2>
           </div>
           <div className="">
@@ -138,7 +138,7 @@ const Contact = ({ visible }) => {
                 />
               </svg>
               <h2 className="text-white text-[16px] font-[400]">
-                support@elavateVapar.com
+              elavatevyapar@gmail.com
               </h2>
             </div>
             <div className="flex flex-row my-8 gap-x-4">

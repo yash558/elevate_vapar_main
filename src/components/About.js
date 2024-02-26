@@ -42,7 +42,7 @@ const AboutSection = () => {
               </h2>
             </div>
             <div className="w-full md:w-[80%] text-justify">
-              Elevate Vapar simplifies and revolutionizes healthcare access by
+              Elevate Vyapar simplifies and revolutionizes healthcare access by
               making it more user-centric and approachable. Our comprehensive
               plans lay emphasis on OPD expenses borne by our customers. Nearly
               75% of an individual’s lifetime medical costs are, on average,

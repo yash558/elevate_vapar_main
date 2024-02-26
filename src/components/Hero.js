@@ -45,8 +45,8 @@ const Hero = () => {
               </p>
             </div> */}
             <h1 className="  text-[#000A2D] py-4 text-2xl capitalize  leading-snug   text-center md:text-left  md:text-6xl font-[600]">
-              Depict <span className="text-brown"></span> digital <br />{" "}
-              business partnership
+              <span className="text-brown"></span> digital <br />{" "}
+              Business Elevation
               {/* <img
                 src={drawline}
                 className="h-10  relative md:top-[-3.5rem] top-[-2.5rem]  md:left-[50%] left-[85%]"
@@ -55,7 +55,7 @@ const Hero = () => {
             </h1>
           </div>
           <p className="text-[16px] text-justify text-[#636571] font-[400] md:my-0 my-2  md:w-[80%] w-[100%]">
-            At Elevate Vapar, we prioritize fortifying your digital assets with
+            At Elevate Vyapar, we prioritize fortifying your digital assets with
             our comprehensive cybersecurity suites. Our flexible defense
             strategies adapt to your unique business needs, providing tailored
             protection against evolving cyber threats. With proactive threat

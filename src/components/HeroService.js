@@ -1,5 +1,6 @@
-import React from "react";
-import { servicehero } from "../assets";
+import React from 'react'
+import { servicehero } from '../assets'
+import TextAnimation from './textScroll'
 
 const HeroService = () => {
   return (
@@ -12,16 +13,20 @@ const HeroService = () => {
         </div>
         <div className="my-8">
           <h2 className="md:text-5xl text-3xl  leading-snug font-[600]">
-            elavateVapar - India’s leading {""}
-            <span className="text-[--primary-color]">One Stop Shop</span> for{" "}
-            <br className="md:flex hidden" /> OPD Care
+            elavateVapar - India’s leading {''}
+            <span className="text-[--primary-color]">
+              One Stop Solution
+            </span>{' '}
+            for Digital Services.
           </h2>
         </div>
         <div className="my-4">
-          {/* <p className="text-justify font-[400] text-lg">
-            elavateVapar Services ensures your smooth journey and covers you towards
-            Health and Wellness
-          </p> */}
+          {/* <TextAnimation text={`elavateVapar Services ensures your smooth journey and covers you towards
+            Health and Wellness`} /> */}
+          <p className="text-justify font-[400] text-lg">
+            elavateVapar Services ensures your smooth journey and build your
+            brand by leveraging the power of digital marketing,
+          </p>
         </div>
       </div>
       <div className="md:w-[70%] w-[90%]">
@@ -32,7 +37,7 @@ const HeroService = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default HeroService;
+export default HeroService

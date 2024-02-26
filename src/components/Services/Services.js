@@ -1,47 +1,47 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-import { Link } from 'react-router-dom'
-import { service1, service2, service3, service4, service5 } from '../../assets'
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
+import { service1, service2, service3, service4, service5 } from "../../assets";
 
 const Services = () => {
   const service = [
     {
-      title: 'Marketing and Promotion',
+      title: "Marketing and Promotion",
       description:
-        'Promotion services help you with SEO, Advertisement Publishing, Social Media Management and Copywriting',
-      link: '',
+        "Promotion services help you with SEO, Advertisement Publishing, Social Media Management and Copywriting",
+      link: "/marketing",
       image: service1,
     },
     {
-      title: 'Content Production',
+      title: "Content Production",
       description:
-        'Content production includes video creation for social media, professional courses, advertisements, podcasts or jingles.',
-      link: '/content-production',
+        "Content production includes video creation for social media, professional courses, advertisements, podcasts or jingles.",
+      link: "/content",
       image: service2,
     },
     {
-      title: 'Brand Management',
+      title: "Brand Management",
       description:
-        'Brand Management and Building includes Enterprise Risk Management, Reputation Management and Consultancy for optimal growth',
-      link: '/brand-management',
+        "Brand Management and Building includes Enterprise Risk Management, Reputation Management and Consultancy for optimal growth",
+      link: "/brand",
       image: service3,
     },
     {
-      title: 'Web Services',
+      title: "Web Services",
       description:
-        'Services from development , designing , deployment to maintainence ensure complete online presence.',
-      link: '/web-services',
+        "Services from development , designing , deployment to maintainence ensure complete online presence.",
+      link: "/web",
       image: service4,
     },
     {
-      title: 'Designing and Graphics',
+      title: "Designing and Graphics",
       description:
-        'Our Designing Services includes range from Graphics, UI, UX ,Posters, Illustrations, Palettes to a lot more.',
-      link: '/designing-graphics',
+        "Our Designing Services includes range from Graphics, UI, UX ,Posters, Illustrations, Palettes to a lot more.",
+      link: "/designing",
       image: service5,
     },
-  ]
+  ];
 
   return (
     <div className="mb-12 w-full flex items-center justify-center flex-col">
@@ -70,10 +70,9 @@ const Services = () => {
               <p className="text-[#4A5568] md:text-sm text-xs font-[400] mb-4">
                 {item.description}
               </p>
-              <a
-                href={item.link}
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                to={item.link}
+                onClick={() => window.scrollTo(0, 0)}
                 className="text-[--primary-color] flex items-center font-bold text-lg transition-transform duration-300 transform hover:translate-x-2"
               >
                 Learn more
@@ -81,7 +80,7 @@ const Services = () => {
                   icon={faArrowRight}
                   className="text-[--primary-color] ml-2 h-4 w-4 p-2 rounded-full bg-white"
                 />
-              </a>
+              </Link>
             </div>
             <div className="flex items-end justify-center">
               <img
@@ -94,7 +93,7 @@ const Services = () => {
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

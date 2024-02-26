@@ -18,7 +18,7 @@ const Navbar = () => {
         { name: "Content Production", link: "/content" },
         { name: "Brand Management", link: "/brand" },
         { name: "Web Services", link: "/webservices" },
-        { name: "Designing and Graphics", link: "/designing" },
+        { name: "Designing and Graphics", link: "/design" },
       ],
     },
     {

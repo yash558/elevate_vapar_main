@@ -30,7 +30,7 @@ const Service = () => {
               <b>
                 Contact Us For easy connect with our team, you may write to
                 <span className="text-[--primary-color]">
-                  &nbsp;support@elevateVapar.com
+                  &nbsp;elavatevyapar@gmail.com
                 </span>
               </b>
             </div>
